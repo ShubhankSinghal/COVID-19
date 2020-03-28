@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    tools:context=".fragment.IsolationFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="@string/title2"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/helpBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:drawableEnd="@drawable/ic_download"
+                android:drawableRight="@drawable/ic_download"
+                android:drawablePadding="10dp"
+                android:drawableTint="#FFF"
+                android:padding="8dp"
+                android:text="@string/isolation"
+                android:textColor="#FFF" />
+
+            <RelativeLayout
+                android:id="@+id/homeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:padding="8dp"
+                    android:text="For more information, visit website:"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text3"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:text="@string/link"
+                    android:textAlignment="center"
+                    android:textColor="#FFF" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="@string/appInfo"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

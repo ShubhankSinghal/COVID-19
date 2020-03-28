@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">COVID-19</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="title">UTTARAKHAND COVID-19 TRACKING SYSTEM</string>
+    <string name="instruction1">CHECK WHETHER YOU HAVE CORONAVIRUS OR NOT. PLEASE ENTER YOUR DETAILS SO THAT A MEDICAL TEAM CAN COME TO HELP YOU.</string>
+    <string name="helpline_numbers">HELPLINE NUMBERS</string>
+    <string name="appInfo">App Developed by Shubhank Singhal (Dedicated to combat Covid-19 Pandemic). An initiative of the Graphic Era University.</string>
+    <string name="title1">GUIDELINES FOR HOME QUARANTINE</string>
+    <string name="guidelines">Guidelines for Home Quarantine(pdf)</string>
+    <string name="link">DEPARTMENT OF HEALTH AND MEDICAL WELFARE, UTTARAKHAND</string>
+    <string name="title2">MANUAL FOR ADVISORY OF CITIZENS DURING LOCKDOWN</string>
+    <string name="isolation">Advisory for Citizens during LockDown(PDF)</string>
+
 </resources>
